@@ -1,0 +1,23 @@
+{
+  "name": "applitools-hackaton-ultrafastgrid-cypress",
+  "version": "1.0.0",
+  "description": "This project contains the main challenges on the Applitools 2020 Ultrafastgrid Hackaton.",
+  "main": "index.js",
+  "scripts": {
+    "test1v1": "cypress run --spec 'cypress/integration/examples/Task1.spec.js'",
+    "test1v2": "cypress run --env v2=true --spec 'cypress/integration/examples/Task1.spec.js'",
+    "test2v1": "cypress run --spec 'cypress/integration/examples/Task2.spec.js'",
+    "test2v2": "cypress run --env v2=true --spec 'cypress/integration/examples/Task2.spec.js'",
+    "test3v1": "cypress run --spec 'cypress/integration/examples/Task3.spec.js'",
+    "test3v2": "cypress run --env v2=true --spec 'cypress/integration/examples/Task3.spec.js'",
+    "regressionv1": "cypress run",
+    "regressionv2": "cypress run --env v2=true",
+    "cypress:open": "cypress open"
+  },
+  "author": "Jacques Schmitz Junior",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-cypress": "latest",
+    "cypress": "latest"
+  }
+}
